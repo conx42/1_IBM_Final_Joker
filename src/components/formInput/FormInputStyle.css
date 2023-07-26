@@ -1,0 +1,62 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  /* top: 50; */
+  padding-left: 0.75rem;
+  padding-right: 0.5rem;
+}
+
+input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label {
+  font-size: 12px;
+  color: gray;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+input:invalid[focused="true"] ~ span {
+  /* border: 1px solid red; */
+  display: block;
+}
+
+.lebu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i#i-eye {
+  color: #7a797e;
+  margin-bottom: -5.6rem;
+  z-index: 99999;
+  margin-right: 0.2rem;
+}
+i#i-eye:hover {
+  cursor: pointer;
+  /* color: 	yellow; */
+}
+i#i-eye {
+  color: #7a797e;
+  margin-bottom: -5.6rem;
+  z-index: 99999;
+  margin-right: 0.2rem;
+  /* background: transparent; */
+  background-color: none;
+  padding-bottom: 13.2px;
+  background: rgba(110, 123, 251, 1);
+  color: black;
+}
+/* My */
